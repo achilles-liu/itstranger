@@ -20,6 +20,7 @@
 	</properties>
 	<modules>
 		<module>rabbitmq-example</module>
+		<module>core-knowledge</module>
 	</modules>
 	
 	<dependencies>
