@@ -18,6 +18,15 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-web</artifactId>
 	</dependency>
+	<!-- spring-boot-starter-data-mongodb -->
+	<!-- <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-mongodb</artifactId>
+	</dependency>
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-data-mongodb-reactive</artifactId>
+	</dependency> -->
 	
 	<dependency>
 		<groupId>org.projectlombok</groupId>
@@ -25,10 +34,45 @@
 		<optional>true</optional>
 	</dependency>
 	
+	<dependency>
+	    <groupId>org.codehaus.groovy</groupId>
+	    <artifactId>groovy</artifactId>
+	    <!-- <type>pom</type> -->
+	</dependency>
+	
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
+    
+    <!-- <dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-mongodb</artifactId>
+	</dependency> -->
+	
+	<dependency>
+	    <groupId>org.redisson</groupId>
+	    <artifactId>redisson-spring-boot-starter</artifactId>
+	    <version>3.11.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>commons-codec</groupId>
+	    <artifactId>commons-codec</artifactId>
+	</dependency>
+	
+	<dependency>
+	    <groupId>net.sourceforge</groupId>
+	    <artifactId>javaml</artifactId>
+	    <version>0.1.7</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.commons</groupId>
+	    <artifactId>commons-compress</artifactId>
+	    <version>1.19</version>
+	</dependency>
+	
   </dependencies>
 </project>
