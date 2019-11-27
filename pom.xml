@@ -21,6 +21,9 @@
 	<modules>
 		<module>rabbitmq-example</module>
 		<module>core-knowledge</module>
+		<!-- <module>core-knowledge-rpc</module> -->
+		<!-- <module>core-knowledge-rpc-caller</module> -->
+		<module>core-knowledge-rpc-callee</module>
 	</modules>
 	
 	<dependencies>
